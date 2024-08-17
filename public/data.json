@@ -1,0 +1,142 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "../assets/Unisex Anime Printed Oversized T-shirt.jpg",
+      "brandName": "Crazymonk",
+      "name": "Unisex Anime Printed Oversized T-shirt",
+      "ratings": "4.2",
+      "discount": "8",
+      "description": "Express your love for anime with our Unisex Anime Printed Oversized T-Shirt. Designed for both comfort and style, this T-shirt features a bold and vibrant anime-inspired print that captures the essence of your favorite characters and scenes. The oversized fit ensures a relaxed and trendy look, perfect for casual outings, lounging at home, or showing off at conventions.",
+      "size": [{ "S": 3 }, { "M": 3 }, { "L": 34 }, { "XL": 23 }, { "XXL": 2 }],
+      "price": "499",
+      "discountType": "price"
+   
+    },
+    {
+      "id": 2,
+      "image": "../assets/Treo lunch box.jpg",
+      "brandName": "Treo",
+      "name": "Treo Lunch Box",
+      "ratings": "3.8",
+      "discount": "12",
+      "description": "Crafted from high-quality, BPA-free materials, the Treo Lunch Box ensures your meals remain fresh and tasty throughout the day. Its spacious compartments and secure closures make it easy to pack a variety of foods, from sandwiches and salads to fruits and snacks. The easy-to-clean interior and exterior save you time, while the compact design fits conveniently into most bags and backpacks.Whether you’re heading to work, school, or a picnic, the Treo Lunch Box is the ultimate companion for keeping your meals organized and your style on point.",
+      "size": [
+        {
+          "free_size": 3
+        }
+      ],
+      "price": "3000",
+      "discountType": "percentage"
+    },
+    {
+      "id": 3,
+      "image": "../assets/Galaxy Watch 6 Classic LTE.jpg",
+      "brandName": "Samsung",
+      "name": "Galaxy Watch 6 Classic LTE",
+      "ratings": "4.7",
+      "discount": "30",
+      "description": "The Samsung Galaxy Watch 6 Classic LTE is a premium smartwatch that blends classic design with advanced technology. Featuring a rotating bezel, it offers a timeless aesthetic with modern functionality. The LTE connectivity allows for untethered use, enabling calls, texts, and streaming without needing to be near your phone. The watch is powered by Samsung's latest software, offering a smooth and responsive experience.",
+      "size": [
+        {
+          "free_size": 2
+        }
+      ],
+      "price": "18000",
+      "discountType": "percentage"
+    },
+    {
+      "id": 4,
+      "image": "../assets/h & m polo shirt.jpg",
+      "brandName": "H&M",
+      "name": "Men Pure Cotton 3-Pack Regular Fit Polo Shirts",
+      "ratings": "4.1",
+      "discount": "900",
+      "description": "Discover timeless style and unbeatable comfort with our Men’s Pure Cotton 3-Pack Regular Fit Polo Shirts. Crafted from 100% high-quality cotton, these polos offer a soft, breathable feel that's perfect for everyday wear. The regular fit ensures a classic silhouette that works for both casual and semi-formal occasions, while the versatile colors make them easy to pair with any outfit. Each pack includes three polos, making it effortless to stock up on essentials. Whether you're heading to the office or relaxing on the weekend, these polos combine style and functionality with ease.",
+      "size": [
+        { "xs": 4 },
+        { "S": 3 },
+        { "M": 3 },
+        { " L": 34 },
+        { "XL": 23 },
+        { "XXL": 2 }
+      ],
+      "price": "2000",
+      "discountType": "price"
+    },
+    {
+      "id": 5,
+      "image": "../assets/Blue Solid Portable Bluetooth Speaker Protonics.jpg",
+      "brandName": "Portronics",
+      "name": "Portronics SoundDrum 1 10W TWS Portable",
+      "ratings": "4.2",
+      "discount": "400",
+      "description": "The Portronics SoundDrum 1 is a 10W TWS (True Wireless Stereo) portable Bluetooth speaker designed for dynamic sound performance and portability. With a robust 10-watt output, it delivers rich and clear audio, making it ideal for both indoor and outdoor use. The speaker features Bluetooth 5.0 for seamless connectivity and supports multiple input options including AUX, USB, and FM radio, enhancing its versatility.",
+      "size": [
+        {
+          "free_size": 2
+        }
+      ],
+      "price": "2000",
+      "discountType": "price"
+    },
+    {
+      "id": 6,
+      "image": "../assets/CRYPTO Running Shoes.jpeg",
+      "brandName": "CRYPTO",
+      "name": "CRYPTO Running Shoes For Men",
+      "ratings": "3.7",
+      "discount": "14",
+      "description": "Elevate your running experience with the CRYPTO Running Shoes for Men—where cutting-edge technology meets sleek design. Engineered for athletes and fitness enthusiasts, these shoes offer unparalleled comfort, durability, and style.",
+      "size": [
+        {
+          "6": 4
+        },
+        {
+          "7": 6
+        },
+        {
+          "8": 3
+        },
+        {
+          "9": 20
+        },
+        {
+          "10": 30
+        }
+      ],
+      "price": "4999",
+      "discountType": "price"
+    },
+
+    {
+      "id": 7,
+      "image": "../assets/SASSAFRAS BASICS Women Wide Leg High-Rise.jpg",
+      "brandName": "SASSAFRAS",
+      "name": "Women Smart Wide Leg High-Rise Clean Look Stretchable Cargo Jeans",
+      "ratings": "4.8",
+      "discount": "100",
+      "description": "Elevate your casual wardrobe with these Women’s Smart Wide Leg High-Rise Cargo Jeans. Designed for both style and comfort, these jeans feature a sleek, clean look with a modern wide-leg cut that offers a flattering silhouette. The high-rise waistband provides a secure fit and enhances your natural curves, while the stretchable fabric ensures all-day comfort and flexibility. The classic cargo design is updated with a minimalist touch, boasting practical side pockets without compromising the sleek appearance. Perfect for a range of activities, from casual outings to laid-back weekends, these versatile jeans seamlessly blend functionality with contemporary fashion.",
+      "size": [{ "28": 3 }, { "30": 3 }, { "32": 34 }, { "34": 23 }],
+      "price": "699",
+      "discountType": "price"
+    },
+
+    {
+      "id": 8,
+      "image": "../assets/iphone13.jpg",
+      "brandName": "Apple",
+      "name": "Apple iPhone 13",
+      "ratings": "5",
+      "discount": "15",
+      "description": "The Apple iPhone 13 offers a sleek and modern design, combining functionality with style. It features a 6.1-inch Super Retina XDR display, delivering vibrant colors and sharp details for an immersive viewing experience. Powered by the A15 Bionic chip, it ensures smooth performance and efficiency for multitasking and gaming.",
+      "size": [
+        {
+          "free_size": 3
+        }
+      ],
+      "price": "2000",
+      "discountType": "percentage"
+    }
+  ]
+}
