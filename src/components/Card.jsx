@@ -16,7 +16,7 @@ const fadeInAnimation = {
     },
   }),
 };
-const Card = ({ product, children, classes, imageClasses }) => {
+const Card = ({ product, children, classes, imageClasses ,nameClasses }) => {
   const [imageLoad, setImageLoad] = useState(true);
 
   return (
@@ -56,7 +56,7 @@ const Card = ({ product, children, classes, imageClasses }) => {
       <div className="p-3 flex flex-col gap-1">
         <Link>
           <h2 className="font-bold text-gray-500">{product.brandName} </h2>
-          <h3 className="w-[250px] text-ellipsis overflow-hidden whitespace-nowrap ">
+          <h3 className={`w-[250px]  overflow-hidden whitespace-nowrap ${nameClasses}`}>
             <span className="border-b-2 border-transparent inline-block hover:border-b-gray-500">
               {product.name}
             </span>

@@ -47,12 +47,12 @@ const CheckoutDetails = ({ isOpen, setIsOpen }) => {
         </p>
         <p className="flex justify-between mt-4">
           <span>Coupon Discount</span>
-        {selectedCoupon ? <div className="flex gap-2 items-center">
+        {selectedCoupon ? <span className="flex gap-2 items-center">
           <span className="text-green-500 font-semibold">-{currencyFormatter.format(selectedCoupon)}</span>
           <button onClick={() => {setIsOpen("applyCoupon")
           setSelectedCoupon(0)
           }}><span className="fa-solid text-orange-400 fa-pen"></span></button>
-        </div> :  <button onClick={() => setIsOpen("applyCoupon")}>Add Coupon</button>}
+        </span> :  <button onClick={() => setIsOpen("applyCoupon")}>Add Coupon</button>}
         </p>
         <p className="flex justify-between mt-4">
           <span>Platform Fee</span>

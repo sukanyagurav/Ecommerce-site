@@ -42,10 +42,11 @@ const Cart = () => {
                     <Card
                       product={cartItem}
                       key={cartItem.id}
-                      imageClasses="w-[120px] h-full"
-                      classes="flex gap-8  mt-8 border-2 p-4 relative"
+                      imageClasses="w-[120px]  h-full "
+                      classes="flex  flex-col justify-center items-center text-center md:text-left md:justify-start md:items-center md:flex-row gap-8  mt-8 border-2 p-4 relative"
+                      nameClasses={'w-full'}
                     >
-                      <div className=" flex justify-between mt-7 w-[130px] items-center">
+                      <div className=" flex justify-between mt-7 w-[130px] items-center mx-auto md:mx-0">
                         <button
                           className="p-2 w-8 h-8 flex justify-center text-white rounded-full bg-blue-400"
                           onClick={() => decreaseQuantity(cartItem.id)}
@@ -66,7 +67,7 @@ const Cart = () => {
                       </div>
 
                       <button
-                        className="absolute block right-4 cursor-pointer"
+                        className="absolute block right-4 cursor-pointer top-8 lg:top-6"
                         onClick={() => setIsOpen("removeItem")}
                       >
                         <svg
