@@ -3,8 +3,8 @@
 ![Design preview for Ecommerce Site](./src/design/ecommerce%20site.png)
 
 ## Links
-- [Live URL](https://mortagage-repayment-calculator5867.netlify.app/)
-- [Github URL](https://github.com/sukanyagurav/Mortgage-Calculator)
+- [Live URL](https://merchmaze5867.netlify.app/)
+- [Github URL](https://github.com/sukanyagurav/Ecommerce-site)
 
 ## Overview
 
