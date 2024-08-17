@@ -15,7 +15,7 @@ export default [
   },
   {
     couponCode: "FOOTWEAR30",
-    minimumPrice: "600",
+    minimumPrice: "6000",
     couponValue: "5",
     discountType: "percentage",
     expiraryDate: "30 August 2024",
