@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { calculateDiscount, currencyFormatter } from "../utils/utilis";
 import { Link } from "react-router-dom";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const fadeInAnimation = {
   initial: {
@@ -15,8 +15,9 @@ const fadeInAnimation = {
       delay: 0.05 * index,
     },
   }),
+
 };
-const Card = ({ product, children, classes, imageClasses ,nameClasses }) => {
+const Card = ({ product, children, classes, imageClasses ,nameClasses='' }) => {
   const [imageLoad, setImageLoad] = useState(true);
 
   return (
@@ -24,6 +25,7 @@ const Card = ({ product, children, classes, imageClasses ,nameClasses }) => {
       variants={fadeInAnimation}
       initial="initial"
       animate="animate"
+      exit={{opacity:0 , y:'-50'}}
       key={product.id}
       className={`transition-all duration-300 ${classes}`}
       custom={product.id}
@@ -56,7 +58,7 @@ const Card = ({ product, children, classes, imageClasses ,nameClasses }) => {
       <div className="p-3 flex flex-col gap-1">
         <Link>
           <h2 className="font-bold text-gray-500">{product.brandName} </h2>
-          <h3 className={`w-[250px]  overflow-hidden whitespace-nowrap ${nameClasses}`}>
+          <h3 className={`w-[250px] text-ellipsis overflow-hidden whitespace-nowrap ${nameClasses}`}>
             <span className="border-b-2 border-transparent inline-block hover:border-b-gray-500">
               {product.name}
             </span>

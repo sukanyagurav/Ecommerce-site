@@ -8,7 +8,7 @@ import CheckoutDetails from "../components/CheckoutDetails";
 
 const Cart = () => {
   const { cart, addCart, decreaseQuantity, removeFromCart } = useCartStore();
-
+  const [removeItem,setRempveItem] = useState()
   const [isOpen, setIsOpen] = useState(false);
 
   function handleAddItems(cartItem) {
@@ -68,7 +68,10 @@ const Cart = () => {
 
                       <button
                         className="absolute block right-4 cursor-pointer top-8 lg:top-6"
-                        onClick={() => setIsOpen("removeItem")}
+                        onClick={() => {
+                          setIsOpen("removeItem") 
+                          setRempveItem(cartItem.id)
+                        }}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +103,7 @@ const Cart = () => {
                             <button
                               className="bg-red-600 p-8 py-2 text-white font-bold mr-4"
                               onClick={() => {
-                                removeFromCart(cartItem.id);
+                                removeFromCart(removeItem);
                                 setIsOpen("");
                               }}
                             >

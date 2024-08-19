@@ -16,14 +16,14 @@ export default [
   {
     couponCode: "FOOTWEAR30",
     minimumPrice: "6000",
-    couponValue: "5",
+    couponValue: "15",
     discountType: "percentage",
     expiraryDate: "30 August 2024",
   },
   {
     couponCode: "MAZE300",
     minimumPrice: "299",
-    couponValue: "40",
+    couponValue: "90",
     discountType: "fixed",
     expiraryDate: "2 September 2024",
   },
